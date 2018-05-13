@@ -1,0 +1,1 @@
+**This is the clone of the Tic-Tac-Toe game using the SFML in Xcode.**
