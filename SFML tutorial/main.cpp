@@ -1,15 +1,34 @@
-//
-//  main.cpp
-//  SFML tutorial
-//
-//  Created by 甘睿 on 5/10/18.
-//  Copyright © 2018 Roser. All rights reserved.
-//
+//#include <SFML/Graphics.hpp>
+//#define SCREEN_WIDTH 1024
+//#define SCREEN_HEIGHT 1024
 
 #include <iostream>
+#include "Game.hpp"
+#include "DEFINITIONS.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+
+int main() {
+//    sf::RenderWindow window(sf::VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Awesome Game");
+//
+//    while(window.isOpen()) {
+//        sf::Event event;
+//
+//        while(window.pollEvent(event)) {
+//            switch(event.type) {
+//                case sf::Event::Closed:
+//                    window.close();
+//                    break;
+//            }
+//        }
+//
+//        window.clear();
+//
+//        // objects to draw
+//
+//        window.display();
+//    }
+    
+    Roser::Game(SCREEN_WIDTH, SCREEN_HEIGHT, "SFML Starter");
+    
+    return EXIT_SUCCESS;
 }

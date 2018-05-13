@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		8B52BFB920A56C130046E025 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B52BFB820A56C130046E025 /* main.cpp */; };
+		8B52BFC320A56E4F0046E025 /* libsfml-system.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B52BFC020A56E4F0046E025 /* libsfml-system.2.4.2.dylib */; };
+		8B52BFC420A56E4F0046E025 /* libsfml-window.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B52BFC120A56E4F0046E025 /* libsfml-window.2.4.2.dylib */; };
+		8B52BFC520A56E4F0046E025 /* libsfml-graphics.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B52BFC220A56E4F0046E025 /* libsfml-graphics.2.4.2.dylib */; };
+		8B52BFC920A576890046E025 /* StateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B52BFC720A576880046E025 /* StateMachine.cpp */; };
+		8B52BFCC20A6599A0046E025 /* AssetManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B52BFCA20A6599A0046E025 /* AssetManager.cpp */; };
+		8B52BFCF20A65E780046E025 /* InputManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B52BFCD20A65E780046E025 /* InputManager.cpp */; };
+		8B52BFD220A6AC470046E025 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B52BFD020A6AC470046E025 /* Game.cpp */; };
+		8B52BFD620A6DBB70046E025 /* SplashState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B52BFD420A6DBB70046E025 /* SplashState.cpp */; };
+		8B52BFD920A6E2C00046E025 /* MainMenuState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B52BFD720A6E2C00046E025 /* MainMenuState.cpp */; };
+		8B52BFDC20A6EEAB0046E025 /* GameState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B52BFDA20A6EEAB0046E025 /* GameState.cpp */; };
+		8B52BFDF20A6F4BE0046E025 /* PauseState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B52BFDD20A6F4BE0046E025 /* PauseState.cpp */; };
+		8B52BFE220A79FB90046E025 /* GameOverState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B52BFE020A79FB90046E025 /* GameOverState.cpp */; };
+		8B52BFE520A7B51A0046E025 /* AI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B52BFE320A7B51A0046E025 /* AI.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +38,31 @@
 /* Begin PBXFileReference section */
 		8B52BFB520A56C130046E025 /* SFML tutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SFML tutorial"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B52BFB820A56C130046E025 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8B52BFC020A56E4F0046E025 /* libsfml-system.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.4.2.dylib"; path = "../../../../usr/local/Cellar/sfml/2.4.2_1/lib/libsfml-system.2.4.2.dylib"; sourceTree = "<group>"; };
+		8B52BFC120A56E4F0046E025 /* libsfml-window.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.4.2.dylib"; path = "../../../../usr/local/Cellar/sfml/2.4.2_1/lib/libsfml-window.2.4.2.dylib"; sourceTree = "<group>"; };
+		8B52BFC220A56E4F0046E025 /* libsfml-graphics.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.4.2.dylib"; path = "../../../../usr/local/Cellar/sfml/2.4.2_1/lib/libsfml-graphics.2.4.2.dylib"; sourceTree = "<group>"; };
+		8B52BFC620A574DE0046E025 /* State.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = State.hpp; sourceTree = "<group>"; };
+		8B52BFC720A576880046E025 /* StateMachine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StateMachine.cpp; sourceTree = "<group>"; };
+		8B52BFC820A576890046E025 /* StateMachine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StateMachine.hpp; sourceTree = "<group>"; };
+		8B52BFCA20A6599A0046E025 /* AssetManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AssetManager.cpp; sourceTree = "<group>"; };
+		8B52BFCB20A6599A0046E025 /* AssetManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AssetManager.hpp; sourceTree = "<group>"; };
+		8B52BFCD20A65E780046E025 /* InputManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputManager.cpp; sourceTree = "<group>"; };
+		8B52BFCE20A65E780046E025 /* InputManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InputManager.hpp; sourceTree = "<group>"; };
+		8B52BFD020A6AC470046E025 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		8B52BFD120A6AC470046E025 /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		8B52BFD320A6D92B0046E025 /* DEFINITIONS.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DEFINITIONS.hpp; sourceTree = "<group>"; };
+		8B52BFD420A6DBB70046E025 /* SplashState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SplashState.cpp; sourceTree = "<group>"; };
+		8B52BFD520A6DBB70046E025 /* SplashState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SplashState.hpp; sourceTree = "<group>"; };
+		8B52BFD720A6E2C00046E025 /* MainMenuState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenuState.cpp; sourceTree = "<group>"; };
+		8B52BFD820A6E2C00046E025 /* MainMenuState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MainMenuState.hpp; sourceTree = "<group>"; };
+		8B52BFDA20A6EEAB0046E025 /* GameState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameState.cpp; sourceTree = "<group>"; };
+		8B52BFDB20A6EEAB0046E025 /* GameState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameState.hpp; sourceTree = "<group>"; };
+		8B52BFDD20A6F4BE0046E025 /* PauseState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PauseState.cpp; sourceTree = "<group>"; };
+		8B52BFDE20A6F4BE0046E025 /* PauseState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PauseState.hpp; sourceTree = "<group>"; };
+		8B52BFE020A79FB90046E025 /* GameOverState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameOverState.cpp; sourceTree = "<group>"; };
+		8B52BFE120A79FB90046E025 /* GameOverState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameOverState.hpp; sourceTree = "<group>"; };
+		8B52BFE320A7B51A0046E025 /* AI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AI.cpp; sourceTree = "<group>"; };
+		8B52BFE420A7B51A0046E025 /* AI.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AI.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B52BFC320A56E4F0046E025 /* libsfml-system.2.4.2.dylib in Frameworks */,
+				8B52BFC420A56E4F0046E025 /* libsfml-window.2.4.2.dylib in Frameworks */,
+				8B52BFC520A56E4F0046E025 /* libsfml-graphics.2.4.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +84,7 @@
 			children = (
 				8B52BFB720A56C130046E025 /* SFML tutorial */,
 				8B52BFB620A56C130046E025 /* Products */,
+				8B52BFBF20A56E4E0046E025 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +100,40 @@
 			isa = PBXGroup;
 			children = (
 				8B52BFB820A56C130046E025 /* main.cpp */,
+				8B52BFDD20A6F4BE0046E025 /* PauseState.cpp */,
+				8B52BFDE20A6F4BE0046E025 /* PauseState.hpp */,
+				8B52BFD720A6E2C00046E025 /* MainMenuState.cpp */,
+				8B52BFD820A6E2C00046E025 /* MainMenuState.hpp */,
+				8B52BFD020A6AC470046E025 /* Game.cpp */,
+				8B52BFD120A6AC470046E025 /* Game.hpp */,
+				8B52BFD420A6DBB70046E025 /* SplashState.cpp */,
+				8B52BFD520A6DBB70046E025 /* SplashState.hpp */,
+				8B52BFC620A574DE0046E025 /* State.hpp */,
+				8B52BFC720A576880046E025 /* StateMachine.cpp */,
+				8B52BFC820A576890046E025 /* StateMachine.hpp */,
+				8B52BFCA20A6599A0046E025 /* AssetManager.cpp */,
+				8B52BFCB20A6599A0046E025 /* AssetManager.hpp */,
+				8B52BFCD20A65E780046E025 /* InputManager.cpp */,
+				8B52BFCE20A65E780046E025 /* InputManager.hpp */,
+				8B52BFD320A6D92B0046E025 /* DEFINITIONS.hpp */,
+				8B52BFE020A79FB90046E025 /* GameOverState.cpp */,
+				8B52BFE120A79FB90046E025 /* GameOverState.hpp */,
+				8B52BFDA20A6EEAB0046E025 /* GameState.cpp */,
+				8B52BFDB20A6EEAB0046E025 /* GameState.hpp */,
+				8B52BFE320A7B51A0046E025 /* AI.cpp */,
+				8B52BFE420A7B51A0046E025 /* AI.hpp */,
 			);
 			path = "SFML tutorial";
+			sourceTree = "<group>";
+		};
+		8B52BFBF20A56E4E0046E025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B52BFC220A56E4F0046E025 /* libsfml-graphics.2.4.2.dylib */,
+				8B52BFC020A56E4F0046E025 /* libsfml-system.2.4.2.dylib */,
+				8B52BFC120A56E4F0046E025 /* libsfml-window.2.4.2.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +193,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B52BFD920A6E2C00046E025 /* MainMenuState.cpp in Sources */,
+				8B52BFDF20A6F4BE0046E025 /* PauseState.cpp in Sources */,
+				8B52BFDC20A6EEAB0046E025 /* GameState.cpp in Sources */,
+				8B52BFCF20A65E780046E025 /* InputManager.cpp in Sources */,
+				8B52BFE520A7B51A0046E025 /* AI.cpp in Sources */,
+				8B52BFCC20A6599A0046E025 /* AssetManager.cpp in Sources */,
+				8B52BFD620A6DBB70046E025 /* SplashState.cpp in Sources */,
 				8B52BFB920A56C130046E025 /* main.cpp in Sources */,
+				8B52BFC920A576890046E025 /* StateMachine.cpp in Sources */,
+				8B52BFD220A6AC470046E025 /* Game.cpp in Sources */,
+				8B52BFE220A79FB90046E025 /* GameOverState.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +317,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sfml/2.4.2_1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -241,6 +330,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sfml/2.4.2_1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
